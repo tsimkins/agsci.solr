@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<object name="portal_properties">
+  <object name="agsci_solr_properties" meta_type="Plone Property Sheet">
+    <property name="title">agsci.solr Properties</property>
+    <property name="solr_protocol" type="string" purge="False">http</property>
+    <property name="solr_host" type="string" purge="False">0.0.0.0</property>
+    <property name="solr_port" type="string" purge="False">8080</property>
+    <property name="solr_base_url" type="string" purge="False">/solr</property>
+  </object>
+</object>

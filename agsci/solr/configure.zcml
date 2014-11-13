@@ -1,0 +1,13 @@
+<configure xmlns="http://namespaces.zope.org/zope"
+           xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+           i18n_domain="agsci.solr">
+
+    <genericsetup:registerProfile
+        name="default"
+        title="agsci.solr"
+        directory="profiles/default"
+        description="Multisite Solr search integration"
+        provides="Products.GenericSetup.interfaces.EXTENSION"
+    />
+
+</configure>
